@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compartidos",
+  "info": {
+    "singularName": "compartido",
+    "pluralName": "compartidos",
+    "displayName": "Compartido"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "compartido": {
+      "type": "component",
+      "component": "shared.specific-plan",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wordpresses",
+  "info": {
+    "singularName": "wordpress",
+    "pluralName": "wordpresses",
+    "displayName": "Wordpress"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "wordpress": {
+      "type": "component",
+      "component": "shared.specific-plan",
+      "repeatable": true
+    }
+  }
+}

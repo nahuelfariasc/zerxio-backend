@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_specific_plans",
+  "info": {
+    "displayName": "Specific Plan"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "decimal"
+    },
+    "list": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

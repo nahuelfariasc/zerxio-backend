@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reasons",
+  "info": {
+    "singularName": "reason",
+    "pluralName": "reasons",
+    "displayName": "Reason"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "features": {
+      "type": "component",
+      "component": "shared.feature",
+      "repeatable": true
+    }
+  }
+}

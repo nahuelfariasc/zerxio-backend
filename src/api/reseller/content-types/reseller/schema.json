@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resellers",
+  "info": {
+    "singularName": "reseller",
+    "pluralName": "resellers",
+    "displayName": "Reseller"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reseller": {
+      "type": "component",
+      "component": "shared.specific-plan",
+      "repeatable": true
+    }
+  }
+}
